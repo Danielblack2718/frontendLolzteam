@@ -1,0 +1,38 @@
+@import './base.css';
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffefd5;
+  padding: 1em;
+}
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+*{
+  padding: 0;
+}
+a,
+.green {
+  text-decoration: none;
+  color: black;
+  transition: 0.4s;
+}
+
+
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
